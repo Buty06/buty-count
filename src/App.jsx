@@ -1,3 +1,4 @@
+import { Count } from "./Count";
 import "./style.css";
 
 export const App = () => {
@@ -8,11 +9,7 @@ export const App = () => {
 
         <h3 className="subtitle">Trata de llegar a 30</h3>
 
-        <section className="count_container">
-          <button className="rest_count">-</button>
-          <p className="counter">0</p>
-          <button className="add_count">+</button>
-        </section>
+        <Count></Count>
       </main>
     </>
   );
