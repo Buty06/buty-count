@@ -7,10 +7,6 @@ export const Count = () => {
   const handlerIncrement = () => setCount(count + 1);
   const handlerDecrement = () => (count === 0 ? 0 : setCount(count - 1));
 
-  if (count === 30) {
-    console.log(23);
-  }
-
   return (
     <section className="count_container">
       <button className="rest_count" onClick={() => handlerDecrement()}>
@@ -24,7 +20,13 @@ export const Count = () => {
       </button>
 
       {count === 30 && (
-        <video className="video" src={videoSrc} autoPlay loop></video>
+        <video
+          className="video"
+          src={videoSrc}
+          preload="auto"
+          autoPlay
+          loop
+        ></video>
       )}
     </section>
   );
