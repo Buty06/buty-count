@@ -7,7 +7,7 @@ export const App = () => {
       <main className="main">
         <h1>Buty Count</h1>
 
-        <h3 className="subtitle">Trata de llegar a 100</h3>
+        <h3 className="subtitle">Trata de llegar a 30</h3>
 
         <Count></Count>
       </main>
