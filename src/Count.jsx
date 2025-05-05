@@ -19,7 +19,7 @@ export const Count = () => {
         +
       </button>
 
-      {count === 30 && (
+      {count === 100 && (
         <video
           className="video"
           src={videoSrc}
